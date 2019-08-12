@@ -3,13 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29201.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFunctions", "AutomatedTestsProject\TestFunctions.csproj", "{5183D90E-016C-44A9-907E-D39AB30E86DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutomatedTestingConsole", "AutomatedTestingConsole\AutomatedTestingConsole.csproj", "{99DF28C9-7A4C-4797-9C47-CBC269D4913D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatedTestLibrary", "AutomatedTestLibrary\AutomatedTestLibrary.csproj", "{457FED17-8938-4D3E-88B0-F5E5451914F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutomatedTestCases", "AutomatedTestCases\AutomatedTestCases.csproj", "{3CC91A42-A0D2-45DE-8D2A-65A31C019EE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatedTestingConsole", "AutomatedTestingConsole\AutomatedTestingConsole.csproj", "{99DF28C9-7A4C-4797-9C47-CBC269D4913D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatedTestCases", "AutomatedTestCases\AutomatedTestCases.csproj", "{3CC91A42-A0D2-45DE-8D2A-65A31C019EE5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatedTestingMSTestProject", "AutomatedTestingMSTestProject\AutomatedTestingMSTestProject.csproj", "{A599EE78-56A0-4F04-A7E4-01DC45779757}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,14 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5183D90E-016C-44A9-907E-D39AB30E86DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5183D90E-016C-44A9-907E-D39AB30E86DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5183D90E-016C-44A9-907E-D39AB30E86DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5183D90E-016C-44A9-907E-D39AB30E86DC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{457FED17-8938-4D3E-88B0-F5E5451914F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{457FED17-8938-4D3E-88B0-F5E5451914F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{457FED17-8938-4D3E-88B0-F5E5451914F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{457FED17-8938-4D3E-88B0-F5E5451914F3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{99DF28C9-7A4C-4797-9C47-CBC269D4913D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{99DF28C9-7A4C-4797-9C47-CBC269D4913D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99DF28C9-7A4C-4797-9C47-CBC269D4913D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +23,10 @@ Global
 		{3CC91A42-A0D2-45DE-8D2A-65A31C019EE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CC91A42-A0D2-45DE-8D2A-65A31C019EE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CC91A42-A0D2-45DE-8D2A-65A31C019EE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A599EE78-56A0-4F04-A7E4-01DC45779757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A599EE78-56A0-4F04-A7E4-01DC45779757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A599EE78-56A0-4F04-A7E4-01DC45779757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A599EE78-56A0-4F04-A7E4-01DC45779757}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
