@@ -2,7 +2,23 @@
 
 namespace AutomatedTestLibrary
 {
-    public class Class1
-    {
+    public class Functions {
+
+        public int Add1(int i)
+        {
+            return i + 1;
+        }
+        public int XSquaredPlus3(int i)
+        {
+
+            return i * i + 3;
+        }
+
+        public int X7X12(int i) {
+
+            return (i * i) - (7 * i) + 12;
+        }
+
+
     }
 }
